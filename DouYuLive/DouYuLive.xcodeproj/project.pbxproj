@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3DDC72CC1DF94A54003DB31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC72CB1DF94A54003DB31D /* AppDelegate.swift */; };
-		3DDC72CE1DF94A54003DB31D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC72CD1DF94A54003DB31D /* ViewController.swift */; };
 		3DDC72D11DF94A54003DB31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC72CF1DF94A54003DB31D /* Main.storyboard */; };
 		3DDC72D31DF94A55003DB31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC72D21DF94A55003DB31D /* Assets.xcassets */; };
 		3DDC72D61DF94A55003DB31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC72D41DF94A55003DB31D /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		3DDC72C81DF94A54003DB31D /* DouYuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDC72CB1DF94A54003DB31D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DDC72CD1DF94A54003DB31D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DDC72D01DF94A54003DB31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DDC72D21DF94A55003DB31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DDC72D51DF94A55003DB31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,69 @@
 		3DDC72CA1DF94A54003DB31D /* DouYuLive */ = {
 			isa = PBXGroup;
 			children = (
+				3DDC733D1DFB976F003DB31D /* Classses */,
 				3DDC72CB1DF94A54003DB31D /* AppDelegate.swift */,
-				3DDC72CD1DF94A54003DB31D /* ViewController.swift */,
-				3DDC72CF1DF94A54003DB31D /* Main.storyboard */,
 				3DDC72D21DF94A55003DB31D /* Assets.xcassets */,
 				3DDC72D41DF94A55003DB31D /* LaunchScreen.storyboard */,
 				3DDC72D71DF94A55003DB31D /* Info.plist */,
 			);
 			path = DouYuLive;
+			sourceTree = "<group>";
+		};
+		3DDC733D1DFB976F003DB31D /* Classses */ = {
+			isa = PBXGroup;
+			children = (
+				3DDC733E1DFB976F003DB31D /* Follow */,
+				3DDC733F1DFB976F003DB31D /* Home */,
+				3DDC73401DFB976F003DB31D /* Live */,
+				3DDC73411DFB976F003DB31D /* Main */,
+				3DDC73421DFB976F003DB31D /* Proflie */,
+				3DDC73431DFB976F003DB31D /* Tools */,
+			);
+			path = Classses;
+			sourceTree = "<group>";
+		};
+		3DDC733E1DFB976F003DB31D /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		3DDC733F1DFB976F003DB31D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3DDC73401DFB976F003DB31D /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		3DDC73411DFB976F003DB31D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3DDC72CF1DF94A54003DB31D /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3DDC73421DFB976F003DB31D /* Proflie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proflie;
+			sourceTree = "<group>";
+		};
+		3DDC73431DFB976F003DB31D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +189,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DDC72CE1DF94A54003DB31D /* ViewController.swift in Sources */,
 				3DDC72CC1DF94A54003DB31D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +202,7 @@
 				3DDC72D01DF94A54003DB31D /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3DDC72D41DF94A55003DB31D /* LaunchScreen.storyboard */ = {
@@ -289,6 +342,7 @@
 				3DDC72DC1DF94A55003DB31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
